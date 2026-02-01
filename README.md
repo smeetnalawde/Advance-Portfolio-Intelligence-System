@@ -2,7 +2,8 @@
 ### Semantic Analysis for Low-Risk Capital Management
 
 
-![System Architecture](images/The_Architecture.png)
+<img src="images/The_Architecture.png" width="600" alt="System Architecture">
+
 
 ##  Project Overview
 Equity research is inherently unscalable; analysts waste countless hours filtering through noisy, unstructured text to find relevant signals. 
@@ -30,7 +31,9 @@ We conducted a quantitative "Embedding Bake-Off" to select the optimal model for
  
 ###  Portfolio Performance
 ![Financial Impact](images/Financial_Impact.png)
-*Figure: The "Cryptocurrency" theme (Red line) identified by our semantic search engine significantly outperformed baseline themes over a 12-month period.*
+
+
+*Figure: The "Cryptocurrency" theme (Red line) identified by our semantic search engine significantly outperformed baseline themes over 12 months.*
 
 ## 🔧 Technical Highlights
 * **Self-Healing Pipelines:** The system uses `$exists`-based flags and idempotent writes to detect missing data and only recompute what is absent[cite: 81, 85].
