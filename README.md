@@ -29,7 +29,7 @@ We conducted a quantitative "Embedding Bake-Off" to select the optimal model for
 *  **Investment Impact:** The "Cryptocurrency & Digital Assets" theme identified by the system materially outperformed the baseline over a 12-month backtest.
  
 ###  Portfolio Performance
-![Financial Impact](images/Financial_Impact.png)
+![Financial Impact](Financial Impact.png)
 *Figure: The "Cryptocurrency" theme (Red line) identified by our semantic search engine significantly outperformed baseline themes over a 12-month period.*
 
 ## 🔧 Technical Highlights
