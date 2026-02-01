@@ -2,7 +2,7 @@
 ### Semantic Analysis for Low-Risk Capital Management
 
 
-![System Architecture](images/system_architecture.png)
+![System Architecture](https://raw.githubusercontent.com/smeetnalawde/Advance-Portfolio-Intelligence-System/main/images/system_architecture.png)
 
 ##  Project Overview
 Equity research is inherently unscalable; analysts waste countless hours filtering through noisy, unstructured text to find relevant signals. 
