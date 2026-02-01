@@ -3,7 +3,7 @@
 
 
 <img src="images/The_Architecture.png" width="400" alt="System Architecture">
-![The System Architecture] 
+          **The System Architecture** 
 
 
 ##  Project Overview
@@ -17,23 +17,20 @@ The pipeline follows a robust **Extract-Transform-Load (ETL)** pattern:
 2.  **Storage:** Live MongoDB Data Warehouse with a self-healing schema design.
 3.  **Processing:** LLM Map-Reduce summarization (Chunking → Extraction → Synthesis) to compress noise.
 4.  **Vector Database:** Production embeddings generated using `nomic-embed-text` and `BAAI/bge-large`.
-5.  [**Hybrid Search:** Lucene-standard sparse search combined with dense vector retrieval.
+5.  **Hybrid Search:** Lucene-standard sparse search combined with dense vector retrieval.
 
 ##  Key Results & Performance
 We conducted a quantitative "Embedding Bake-Off" to select the optimal model for financial semantics.
 
 * **Model Selection:** Nomic-based embeddings achieved the strongest sector-level separation (Silhouette Score: **0.064**) on LLM summaries.
 * **Search Precision:** The hybrid search engine achieved a **Mean Reciprocal Rank (MRR@10) of 0.4347**, confirming that relevant companies consistently rank at the top.
-
-<img src="images/Model_Evaluation.png" width="400" alt="Model Evaluation">
-![Model Evaluation] 
-
-
 *  **Investment Impact:** The "Cryptocurrency & Digital Assets" theme identified by the system materially outperformed the baseline over a 12-month backtest.
  
+<img src="images/Model_Evaluation.png" width="400" alt="Model Evaluation">
+             **Model Evaluation** 
 ###  Portfolio Performance
 <img src="images/Financial_Impact.png" width="400" alt="Financial Impact">
-![Financial Impact] 
+     **Financial Impact**
 
 
 *Figure: The "Cryptocurrency" theme (Red line) identified by our semantic search engine significantly outperformed baseline themes over 12 months.*
