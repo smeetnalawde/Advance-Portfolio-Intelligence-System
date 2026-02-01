@@ -2,7 +2,7 @@
 ### Semantic Analysis for Low-Risk Capital Management
 
 
-![System Architecture](The_Architecture.png)
+![System Architecture](system_architecture.png)
 
 ##  Project Overview
 Equity research is inherently unscalable; analysts waste countless hours filtering through noisy, unstructured text to find relevant signals. 
@@ -24,7 +24,7 @@ We conducted a quantitative "Embedding Bake-Off" to select the optimal model for
 * **Search Precision:** The hybrid search engine achieved a **Mean Reciprocal Rank (MRR@10) of 0.4347**, confirming that relevant companies consistently rank at the top.
 *  **Investment Impact:** The "Cryptocurrency & Digital Assets" theme identified by the system materially outperformed the baseline over a 12-month backtest.
 
-![Model Evaluation](Model_Evaluation.png)
+![Model Evaluation](model_evaluation.png)
 
 ## 🔧 Technical Highlights
 * **Self-Healing Pipelines:** The system uses `$exists`-based flags and idempotent writes to detect missing data and only recompute what is absent[cite: 81, 85].
