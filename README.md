@@ -2,7 +2,7 @@
 ### Semantic Analysis for Low-Risk Capital Management
 
 
-![System Architecture](C:\Users\Smeet'sOmen\bia678_finalproject-main\images\system_architecture.png)
+![System Architecture](images\The_Architecture.png)
 
 ##  Project Overview
 Equity research is inherently unscalable; analysts waste countless hours filtering through noisy, unstructured text to find relevant signals. 
@@ -23,7 +23,7 @@ We conducted a quantitative "Embedding Bake-Off" to select the optimal model for
 * **Model Selection:** Nomic-based embeddings achieved the strongest sector-level separation (Silhouette Score: **0.064**) on LLM summaries.
 * **Search Precision:** The hybrid search engine achieved a **Mean Reciprocal Rank (MRR@10) of 0.4347**, confirming that relevant companies consistently rank at the top.
 
-![Model Evaluation](images/model_evaluation.png)
+![Model Evaluation](images/Model_Evaluation.png)
 
 
 *  **Investment Impact:** The "Cryptocurrency & Digital Assets" theme identified by the system materially outperformed the baseline over a 12-month backtest.
